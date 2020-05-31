@@ -1,11 +1,13 @@
-$fn=40;
+$fn=60;
 r = 5;
+
+thickness = 0.275;
 difference() {
-  cylinder(0.1, r, r, true);
+  cylinder(thickness, r, r, true);
   union() {
     cylinder(1, 2, 2, true);
-    for(deg = [0:360]) {
-      rotate(deg) translate([r-.3, 0, 0]) cube([0.4, 0.05, 1], true);
+    for(deg = [0:120]) {
+      rotate(deg*3) translate([r-.3, 0, 0]) cube([0.4, 0.14, 1], true);
     }
     for(deg = [0:4]) {
       rotate(deg*(360/4))
