@@ -14,7 +14,7 @@ creates the slits that the photons of photovoltaic counter pass through and get 
 The gyro is used to keep the bike upright. It consistes of a rotor that is filled with sand, a rotor cap, and scaffolding to support the gyro itself and the motor that rotates the gyro.
 
 #### rotorCap.scad
-<img src="photos/gyro_rotor_cap.jpg">
+<img width="300" src="photos/gyro_rotor_cap.jpg">
 
 #### rotor.scad
 <img src="photos/gyro_rotor.jpg">
